@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  base: "/rlearning/",
   plugins: [
     react(),        // Soporte para React/JSX
     tailwindcss(),  // Tailwind v4 como plugin de Vite
